@@ -6,3 +6,5 @@ The following software is designed with Ionic Framework, based on AngularJS and 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
 </div>
+
+*This project was done with my high school classmates Rodrigo Moreno Plascencia and Mario Martín for our 6th semester App Development class.
