@@ -1,0 +1,90 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Madrid</ion-title>
+  </ion-toolbar>
+  <capacitor-google-map id="map2"></capacitor-google-map>
+</ion-header>
+
+  
+  <ion-content>
+   <ion-grid>
+  <ion-row>
+    <ion-col><ion-button routerLink="/starter" color="dark"><ion-icon name="menu-outline"></ion-icon></ion-button></ion-col>
+    <ion-col><ion-button (click) = "ubi();" color="dark"><ion-icon name="location-outline"></ion-icon></ion-button></ion-col>
+    <ion-col><ion-button color="dark"  (click) = "motion();"><ion-icon name="compass-outline"></ion-icon></ion-button></ion-col>
+    <ion-col><ion-button color="dark" (click) = "share();"><ion-icon name="share-social-outline"></ion-icon></ion-button></ion-col>
+  </ion-row>
+</ion-grid>
+
+<p>Compass Angle: {{ compassAngle }}°</p>
+  <div class="a"><img src="assets/compass.png" [ngStyle]="{'transform': 'rotate('+(compassAngle*-1)+'deg)'}"></div>
+
+<ion-card color="dark">
+  <ion-card-header >
+    <ion-card-title style="font-family: Lucida Console">Simbología</ion-card-title>
+    <ion-card-subtitle style="font-family: Lucida Console">¿Cuáles son los lugares que te recomendamos?</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content >
+    <ion-list color="dark">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Current Location" src="./assets/red.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Tu ubicación</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Plaza Mayor" src="./assets/orange.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Plaza Mayor</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Catedral de Santa María" src="./assets/yellow.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Catedral de Santa María</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Palacio Real de Madrid" src="./assets/green.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Palacio Real de Madrid</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Plaza de España" src="./assets/cyan.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Plaza de España</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Museo Nacional del Prado" src="./assets/blue.png"/>
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Museo Nacional del Prado</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Puerta de Alcalá" src="./assets/purple.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Puerta de Alcalá</ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img alt="Parque de El Retiro"src="./assets/pink.png" />
+        </ion-thumbnail>
+        <ion-label style="font-family: Lucida Console">Parque de El Retiro</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+</ion-content>
+
+  
+
