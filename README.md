@@ -22,4 +22,4 @@ In addition, some of these images also include snapshots from the project:
 
 The source code for SightGeek is added to this repository and can be found in the folders inside it.
 
-*This project was done with my high school classmates Rodrigo Moreno Plascencia and Mario Martín for our 6th semester App Development class.
+*This project was done with the collaboration of my classmates Rodrigo Moreno Plascencia and Mario Martín.
