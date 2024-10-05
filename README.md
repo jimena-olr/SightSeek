@@ -1,7 +1,7 @@
 # 📷 SightSeek
 SightSeek is an Android application designed for tourists that allows them to see the principal historical landmarks in several cities around the world, such as Paris, Lisboa, and Washington.
 
-The following software is designed with Ionic Framework, based on AngularJS and Capacitor, and designed with TypeScript and JavaScipt as the main programming languages. This is an Android targeted application that was built through Android Studio, with a Gradle engine. As the main functions of this project, Sightseek can:
+The following software is designed with Ionic Framework, based on AngularJS and Capacitor, and designed with TypeScript and JavaScript as the main programming languages. This is an Android targeted application that was built through Android Studio, with a Gradle engine. As the main functions of this project, Sightseek can:
 
 - Take the user's location and display it leveraging the Google Maps API
 - Use the Compass feature in the user's phone and rotate a dynamic compass to help the user orient themselves
