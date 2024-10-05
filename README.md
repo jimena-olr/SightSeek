@@ -15,10 +15,10 @@ https://github.com/user-attachments/assets/3d59f51d-5389-4c41-b822-30071b317b3a
 
 In addition, some of these images also include snapshots from the project:
 
-<img src="https://github.com/user-attachments/assets/3b1f7273-4988-40a4-b4ed-6626b96c2e22" width="250">
-<img src="https://github.com/user-attachments/assets/dad9fbaa-8272-47fb-830a-16f85bec9c5d" width="250">
-<img src="https://github.com/user-attachments/assets/6da905dc-952a-4796-9598-e042f126de18" width="250">
-<img src="https://github.com/user-attachments/assets/6ab005b7-ce72-4c95-b700-a7656ff4828a" width="250">
+<img src="https://github.com/user-attachments/assets/3b1f7273-4988-40a4-b4ed-6626b96c2e22" width="200">
+<img src="https://github.com/user-attachments/assets/dad9fbaa-8272-47fb-830a-16f85bec9c5d" width="200">
+<img src="https://github.com/user-attachments/assets/6da905dc-952a-4796-9598-e042f126de18" width="200">
+<img src="https://github.com/user-attachments/assets/6ab005b7-ce72-4c95-b700-a7656ff4828a" width="200">
 
 The source code for SightGeek is added to this repository and can be found in the folders inside it.
 
