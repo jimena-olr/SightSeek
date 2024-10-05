@@ -1,0 +1,7 @@
+{
+  "name": "Sightseek",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
